@@ -1,0 +1,12 @@
+Source: ros-indigo-force-torque-tools
+Section: misc
+Priority: extra
+Maintainer: Francisco Vina <fevb@kth.se>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://wiki.ros.org/force_torque_tools
+Standards-Version: 3.9.2
+
+Package: ros-indigo-force-torque-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-force-torque-sensor-calib, ros-indigo-gravity-compensation
+Description: Tools for gravity compensation and force-torque sensor calibration.
