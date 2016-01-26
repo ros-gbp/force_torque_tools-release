@@ -1,10 +1,9 @@
 <package>
   <name>force_torque_tools</name>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
   <description>
     Tools for gravity compensation and force-torque sensor calibration.
   </description>
-  <maintainer email="fevb@kth.se">Francisco Vina</maintainer>
   <license>BSD</license>
 
   <url>http://wiki.ros.org/force_torque_tools</url>
