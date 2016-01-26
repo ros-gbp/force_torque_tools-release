@@ -1,0 +1,12 @@
+Source: ros-jade-gravity-compensation
+Section: misc
+Priority: extra
+Maintainer: Francisco Vina <fevb@kth.se>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin, ros-jade-cmake-modules, ros-jade-eigen-conversions, ros-jade-geometry-msgs, ros-jade-roscpp, ros-jade-sensor-msgs, ros-jade-tf, ros-jade-tf-conversions
+Homepage: http://wiki.ros.org/gravity_compensation
+Standards-Version: 3.9.2
+
+Package: ros-jade-gravity-compensation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libeigen3-dev, ros-jade-cmake-modules, ros-jade-eigen-conversions, ros-jade-geometry-msgs, ros-jade-roscpp, ros-jade-sensor-msgs, ros-jade-tf, ros-jade-tf-conversions
+Description: Compensates gravity forces on the gripper of the robot so that force-torque signals are zeroed. Assumes previously calibrated accelerometer and F/T sensor.
