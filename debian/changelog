@@ -1,0 +1,27 @@
+ros-jade-force-torque-tools (1.1.0-0utopic) utopic; urgency=high
+
+  * [sys] Updated for jade and k-turtle eigen dependency (#12 <https://github.com/kth-ros-pkg/force_torque_tools/pull/12> and discussion #11 <https://github.com/kth-ros-pkg/force_torque_tools/issues/11>)
+  * Contributors: Aris Synodinos
+
+ -- Francisco Vina <fevb@kth.se>  Mon, 25 Jan 2016 08:00:00 -0000
+
+ros-jade-force-torque-tools (1.0.2-0utopic) utopic; urgency=high
+
+  * [fix] Add missing install rules
+  * [sys] Redundant maintainer names
+  * Contributors: Isaac IY Saito
+
+ -- Francisco Vina <fevb@kth.se>  Mon, 17 Aug 2015 07:00:00 -0000
+
+ros-jade-force-torque-tools (1.0.1-0utopic) utopic; urgency=high
+
+  * (Feature) ROS Indigo compilation.
+  * (Feature) added check for imu message timestamp
+  * (Fix) fixed launch file to accept arguments
+  * (Usage) updated readme and added example files for gravity compensation
+  * (Usage) put an example calibration data file in the force_torque_sensor_calib package
+  * Contributors: Francisco Vina, Isaac IY Saito
+
+ -- Francisco Vina <fevb@kth.se>  Sun, 17 May 2015 07:00:00 -0000
+
+
